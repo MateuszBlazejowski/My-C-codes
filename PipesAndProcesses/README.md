@@ -1,7 +1,7 @@
 
 # README - Process and Pipe Management Program
 
-This repository contains a C program designed to demonstrate the use of pipes and process management, wrote as a part of operating systems course. The program simulates a production line with multiple "brigades" (processes) that handle data through pipes. It focuses on process creation, inter-process communication (IPC) using pipes, and handling concurrent processes.
+This directory contains a C program designed to demonstrate the use of pipes and process management, wrote as a part of operating systems course. The program simulates a production line with multiple "brigades" (processes) that handle data through pipes. It focuses on process creation, inter-process communication (IPC) using pipes, and handling concurrent processes.
 
 ## Program Overview
 
