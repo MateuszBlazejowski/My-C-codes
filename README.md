@@ -36,3 +36,15 @@ Schema of the program queue structure:
  <img src="QueuesProcessesAndSignals/QueueSchema.png" alt="Alt text"/>  
 
 Open [QueuesProcessesAndSignals](./QueuesProcessesAndSignals) directory to see more. 
+
+## Mapping memory  
+
+This program implements a simulation of a dog race using multiple processes and inter-process synchronization through POSIX shared memory, mutexes, and barriers. The goal is to demonstrate synchronization between processes accessing and modifying shared data structures, and to simulate race dynamics with randomly moving dogs and live commentary.
+
+Crucial code elements:  
+
+1. **Dog Processes**: Each dog moves along the racetrack and tries to reach the end and return. Upon finishing, it writes its result to the shared leaderboard.
+2. **Commentator Process**: Periodically prints the current state of the racetrack, showing dog positions and directions.
+3. **Shared Memory**: All processes access a shared data structure (`sharedData_t`) that holds the track state, dog directions, positions, and the leaderboard.
+
+Open [QueuesProcessesAndSignals](./SharedMemoryAndProcesses) directory to see more. 
